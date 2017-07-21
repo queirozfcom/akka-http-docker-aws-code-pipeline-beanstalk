@@ -18,7 +18,7 @@ class SampleRoutesSpec extends WordSpec with Matchers with ScalatestRouteTest {
 
     "test" should {
 
-      "respond 200 for an inexisting account" in {
+      "respond 200 with correct payload for test route" in {
 
         // see http://doc.akka.io/docs/akka-http/current/scala/http/routing-dsl/testkit.html#testing-sealed-routes
         Get(s"/999/test") ~> Route.seal(sampleRoutes) ~> check {

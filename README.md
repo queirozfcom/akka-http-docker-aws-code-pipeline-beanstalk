@@ -8,4 +8,8 @@ Sample Project for blog post: [using AWS CodePipeline to Automatically Build and
 
 - list all third-party projects used here
 
-- list basic functionality
+- list basic parts
+
+ - routing
+
+ - testing
