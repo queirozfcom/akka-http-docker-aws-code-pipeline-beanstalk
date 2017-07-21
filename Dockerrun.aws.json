@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
   "Image": {
-    "Name": "168365157763.dkr.ecr.us-east-1.amazonaws.com/sample-repository:latest",
+    "Name": "REPLACE.WITH.YOUR.REPOSITORY.URI/sample-repository:latest",
     "Update": "true"
   },
   "Ports": [
